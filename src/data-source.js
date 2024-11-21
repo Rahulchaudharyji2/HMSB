@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 
-const dbUrl = process.env.MONGO_DB_URL || 'mongodb://127.0.0.1:27017/Hospital';
+const dbUrl = process.env.MONGO_DB_URL || 'mongodb+srv://rahulchaudharyji2:s5lRXzU96ym1idoU@cluster0.nzxzs3o.mongodb.net/HospitalManagement?retryWrites=true&w=majority&appName=Cluster0';
+
 
 
 class Database{
